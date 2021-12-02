@@ -1,0 +1,1 @@
+;----;LOAD  SYSTEMOWY;----LOAD         LDA #$01 ;DL NAZWY         LDX #<NAZWA         LDY #>NAZWA         JSR $FFBD         LDX #$08 ; NR URZ         LDA #1         LDY #1 ;CZY ADR. DOCELOWY         JSR $FFBA         LDA #0         LDX #$FF         LDY #$FF         JSR $FFD5         RTSNAZWA    .TEXT "*"

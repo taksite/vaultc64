@@ -1,0 +1,1 @@
+; moneo;----;WYDRUK LICZBY HEX; LDX #>LICZBA LUB LDA #LICZBA; LDY #<LICZBA     JSR HEX1; JSR HEX;----HEX      PHA         TXA         JSR HEX1         PLAHEX1     PHA         LSR A         LSR A         LSR A         LSR A         JSR HEX2         PLA         AND #$0FHEX2     CMP #$0A         BCC HEX3         ADC #$06HEX3     ADC #$30         JMP $FFD2

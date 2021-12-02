@@ -1,0 +1,1 @@
+DISCSPR         LDX #0         STX $90         JSR $FFB1         LDA #$6F         JSR $FF93         BIT $90         BMI JP1         JSR $FFAE         LDA #0         RTSJP1      LDA #1         RTS

@@ -1,0 +1,1 @@
+         ;BINARYBINARY   STA $C1         TXA         PHA         LDX #7BINARY1  LDA #0         ASL $C1         ADC #$30         JSR $FFD2         DEX         BPL BINARY1         PLA         TAX         RTS
